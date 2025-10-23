@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="vi">
+    <head>
+        <title>Movie</title>
+        <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+        <link rel="stylesheet" href="Styles/c19.css">
+    </head>
+    <body>
+  <table class="ticket-table" border="1">
+    <caption><b>Mua vé</b></caption>
+    <tr>
+      <td>Ngày chiếu</td>
+      <td><input type="date" id="ngaychieu"></td>
+    </tr>
+    <tr>
+      <td>Phim</td>
+      <td>
+        <select id="phim">
+          <option>Phim</option>
+          <option>Yêu em bất chấp</option>
+          <option>Tháng năm rực rỡ</option>
+          <option>Và em sẽ đến</option>
+          <option>Chuyện ma lúc 3 giờ sáng</option>
+        </select>
+      </td>
+    </tr>
+    <tr>
+      <td>Suất chiếu</td>
+      <td>
+        <select id="suatchieu">
+          <option>Suất chiếu</option>
+          <option>9h - 12h</option>
+          <option>13h - 16h</option>
+          <option>17h - 20h</option>
+          <option>22h - 2h</option>
+        </select>
+      </td>
+    </tr>
+    <tr>
+      <td>Phòng chiếu</td>
+      <td>
+        <select id="phongchieu">
+          <option>Phòng chiếu</option>
+          <option>Đồng</option>
+          <option>Bạc</option>
+          <option>Vàng</option>
+          <option>Kim Cương</option>
+        </select>
+      </td>
+    </tr>
+    <tr>
+      <td>Chọn chỗ ngồi</td>
+      <td>
+        <select id="cho" size="4">
+          <option>Ghế 01</option>
+          <option>Ghế 02</option>
+          <option>Ghế 03</option>
+          <option>Ghế 04</option>
+        </select>
+      </td>
+    </tr>
+    <tr>
+      <td colspan="2" align="center">
+        <button id="muave">Mua vé</button>
+      </td>
+    </tr>
+  </table>
+  <br>
+  <span id="result"></span>
+  <script src="Scripts/c19.js"></script>
+</body>
+</html>
